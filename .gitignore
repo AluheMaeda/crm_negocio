@@ -1,2 +1,13 @@
-data/clientes.db
+# Ignorar base de datos y archivos CSV
+*.db
+*.csv
+
+# Ignorar cachés de Python
 __pycache__/
+*.pyc
+
+# Ignorar archivos temporales de VSCode o el sistema
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
